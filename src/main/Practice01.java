@@ -9,6 +9,8 @@ public class Practice01 {
 		Scanner sc = new Scanner(System.in);
 
 		String distanceDriven = sc.nextLine();
+		
+		sc.close();
 
 		String[] distanceArr = distanceDriven.split(" ");
 		int distanceA = Integer.parseInt(distanceArr[0]);

@@ -14,6 +14,8 @@ public class Practice02 {
 		String WEDWorkingTime = sc.nextLine();
 		String THUWorkingTime = sc.nextLine();
 		String FRIWorkingTime = sc.nextLine();
+		
+		sc.close();
 
 		// 요일별 출근시간,퇴근시간으로 쪼개기
 		String[] MONWorkingTimes = MONWorkingTime.split(" ");

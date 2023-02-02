@@ -34,9 +34,7 @@ public class Practice_hyundai {
 
 				// 조건에 해당되는 값을 누적하여 할당
 				companyAbbreviation += companyFullSpelling[i];
-
 			}
-
 		}
 
 		System.out.println(companyAbbreviation);
